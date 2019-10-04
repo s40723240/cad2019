@@ -138,7 +138,7 @@ init_mathjax();
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='Week.html'>Week</a></li>
+                     <li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a><li><a href='Weekly progress.html'>Weekly progress</a></li>
                       </ul>
                 </nav>
               </div>
@@ -149,18 +149,19 @@ init_mathjax();
           </div>
           
         </header>
-    <div id="tipue_search_content">Develop << <a href='Develop.html'>Previous</a> <br /><h1>Week</h1>
-<p>week1</p>
+    <div id="tipue_search_content">Develop << <a href='Develop.html'>Previous</a> <br /><h1>Weekly progress</h1>
+<p><strong>week1</strong></p>
 <p>中秋放假~</p>
-<p>week2</p>
+<p><strong>week2</strong></p>
 <p><strong>建立個人倉儲和網站</strong></p>
 <p>先登入github，將自己的cad2019倉儲建立起來，把201906_fall可攜系統載到隨身碟上，將自己的倉儲git clone到隨身碟上，以 git submodule add <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> cmsimde建立 cmsimde 目錄，把up_dir裡的東西複製到cad2019資料夾，切換到cmsimde的目錄下，<span>以 python wsgi.py 啟動近端網際伺服器，動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</span></p>
 <p>然後到github上，setting的github pages上，切換到master branch，建立起自己的網站。</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Sv2vLEIjh_s" width="560"></iframe></p>
-<p>week3</p>
+<p><strong>week3</strong></p>
 <p><strong>solvespace編譯</strong></p>
 <p>1.將Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe <br/>2.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>3.edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>4.接著需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中 (即隨身系統的 msys64\mingw64\lib 目錄):<br/>5.cd solvespace<br/>6.cd extlib<br/>7.cd libpng<br/>8.mkdir build<br/>9.cd build<br/>10.cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>11.mingw32-make<br/>12.接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>13.cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>14.mingw32-make</p>
-<p>week4</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/yUGyVI9wOAM" width="560"></iframe></p>
+<p><strong>week4</strong></p>
 <p>1.將以前的進度補好</p>
 <p>2.補上影片</p>
 <p><strong></strong></p>
