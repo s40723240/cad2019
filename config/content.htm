@@ -13,7 +13,7 @@
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
-<h1>Weekly progress</h1>
+<h1>Weekly progress 1~5</h1>
 <p><strong>week1</strong></p>
 <p>中秋放假~</p>
 <p><strong>week2</strong></p>
@@ -26,15 +26,23 @@
 <p>1.將Y:\portablegit\bin\sh.exe 改名為 sh_rename_for_solvespace.exe <br/>2.git clone --recurse-submodules https://github.com/solvespace/solvespace.git solvespace<br/>3.edit Y:\tmp\solvespace\extlib\angle\CMakeLists.txt comment out line 713 and 714<br/>#list(APPEND ANGLE_DEFINITIONS<br/>#"-DANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES={ \"d3dcompiler_47.dll\", \"d3dcompiler_46.dll\", \"d3dcompiler_43.dll\" }")<br/>endif()<br/>4.接著需要手動進行 libpng.dll.a 的編譯, 並改名為 libpng_static.a, 並放到編譯系統的 lib 目錄中 (即隨身系統的 msys64\mingw64\lib 目錄):<br/>5.cd solvespace<br/>6.cd extlib<br/>7.cd libpng<br/>8.mkdir build<br/>9.cd build<br/>10.cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>11.mingw32-make<br/>12.接著回到 solvespace 原始碼目錄, 建立 build 目錄後進入 build 目錄, 執行:<br/>13.cmake .. -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release<br/>14.mingw32-make</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/Zx634Pw5rOQ" width="560"></iframe></p>
 <p><strong>week4</strong></p>
-<p>--solvespace操作--</p>
+<p>--更新網站--</p>
 <p><strong></strong>--錄影片所需軟體--</p>
 <p></p>
-<p>  1.    <img alt="" height="44" src="/images/sharex.png" width="44"/>    Share-X 用來錄製影片及擷取圖片</p>
+<p>  1.    <img alt="" height="44" src="/images/sharex.png" width="44"/>     Share-X 用來錄製影片及擷取圖片</p>
 <p></p>
-<p>  2.    <img alt="" height="50" src="/images/aegisub.png" width="50"/>      Aegisub 用來上影片字幕</p>
+<p>  2.   <img alt="" height="50" src="/images/aegisub.png" width="50"/>    Aegisub 用來上影片字幕</p>
 <p></p>
-<p>  3.  <img alt="" height="56" src="/images/arctime.png" width="56"/>     Arctime 用來影片跟字幕合併及上浮水印</p>
+<p>  3.  <img alt="" height="56" src="/images/arctime.png" width="56"/>   Arctime 用來影片跟字幕合併及上浮水印</p>
 <p>---------------------------------------------------------------------------</p>
 <p>自己的浮水印</p>
 <p><img alt="" height="45" src="/images/浮水印.png" width="173"/></p>
+<p><strong>week5</strong></p>
+<p>--solve space操作--</p>
+<p>我做的題目是第9個影片，將solve space圖檔匯入到網頁上。</p>
+<p><img alt="" height="325" src="/images/cube demo.png" width="418"/></p>
+<p>操作影片:</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/1OjRtiGIt40" width="560"></iframe></p>
+<p><a href="file:///G:/tmp/cad2019/test1.html"></a></p>
+<p></p>
 <p></p>
