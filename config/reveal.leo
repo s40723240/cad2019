@@ -36,6 +36,9 @@
 <v t="leo.20191106231738.1"><vh>week7</vh>
 <v t="leo.20191106231738.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20191107224606.1"><vh>week8</vh>
+<v t="leo.20191107224606.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -321,6 +324,28 @@ vertical: body pane on the botton</t>
 ##### &lt;font color="orange"&gt;solvespace繪圖認證&lt;/font&gt;
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/bTkosqc0zJw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+</t>
+<t tx="leo.20191107224606.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191107224606.2">## Week8內容
+
+##### [&lt;font color="orange"&gt;啟用 CMSiMDE 中的網誌系統&lt;/font&gt;](https://www.youtube.com/watch?v=eXFJL5eGLGg)
+
+##### [&lt;font color="orange"&gt;開始導入webots&lt;/font&gt;](https://www.youtube.com/watch?v=SfkMV-z1yxU)
+
+##### [&lt;font color="orange"&gt;以ssh對github連線&lt;/font&gt;](https://www.youtube.com/watch?v=U9bDlg5aJhc)
 
 
 
