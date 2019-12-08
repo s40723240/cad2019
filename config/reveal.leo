@@ -39,6 +39,12 @@
 <v t="leo.20191107224606.1"><vh>week8</vh>
 <v t="leo.20191107224606.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20191208144218.1"><vh>week10</vh>
+<v t="leo.20191208144218.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20191208144227.1"><vh>week12</vh>
+<v t="leo.20191208144227.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -346,6 +352,50 @@ vertical: body pane on the botton</t>
 ##### [&lt;font color="orange"&gt;開始導入webots&lt;/font&gt;](https://www.youtube.com/watch?v=SfkMV-z1yxU)
 
 ##### [&lt;font color="orange"&gt;以ssh對github連線&lt;/font&gt;](https://www.youtube.com/watch?v=U9bDlg5aJhc)
+
+
+
+
+
+</t>
+<t tx="leo.20191208144218.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191208144218.2">## Week10內容
+
+##### [&lt;font color="orange"&gt;組員fork組長創建好的分組倉儲&lt;/font&gt;](https://github.com/s40723240/cad2019bg2)
+
+##### [&lt;font color="orange"&gt;正向與逆向pull request&lt;/font&gt;](https://s40723240.github.io/cad2019/content/Note.html)
+
+##### [&lt;font color="orange"&gt;繪圖軟體發展歷史&lt;/font&gt;](https://s40723240.github.io/cad2019/content/Solidworks.html)
+
+
+
+
+
+</t>
+<t tx="leo.20191208144227.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191208144227.2">## Week12內容
+
+##### [&lt;font color="orange"&gt;NX12電子書CH2章節整理&lt;/font&gt;](https://s40723221.github.io/cad2019bg2/content/CH2%20NX%E5%85%A5%E9%96%80%E6%95%99%E7%A8%8B.html)
+
+##### &lt;font color="orange"&gt;Webots Tutorial&lt;/font&gt;
+
+##### &lt;font color="orange"&gt;V-rep Tutorial&lt;/font&gt;
 
 
 
