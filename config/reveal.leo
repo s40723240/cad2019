@@ -48,6 +48,9 @@
 <v t="leo.20191213014612.1"><vh>心得</vh>
 <v t="leo.20191213014612.2"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20191220004912.1"><vh>week14</vh>
+<v t="leo.20191220004912.2"><vh>封面投影片內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -396,9 +399,9 @@ vertical: body pane on the botton</t>
 
 ##### [&lt;font color="orange"&gt;NX12電子書CH2章節整理&lt;/font&gt;](https://s40723221.github.io/cad2019bg2/content/CH2%20NX%E5%85%A5%E9%96%80%E6%95%99%E7%A8%8B.html)
 
-##### [&lt;font color="orange"&gt;webots-1 Tutorial&lt;/font&gt;](https://www.youtube.com/watch?v=MWbX7liuTF0&amp;feature=emb_logo)
+##### [&lt;font color="orange"&gt;webots-1 Tutorial操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=MWbX7liuTF0&amp;feature=emb_logo)
 
-##### [&lt;font color="orange"&gt;v-rep bubblerob-1Tutorial&lt;/font&gt;](https://www.youtube.com/watch?v=v_mXzaLcpig&amp;feature=emb_logo)
+##### [&lt;font color="orange"&gt;v-rep bubblerob-1Tutorial操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=v_mXzaLcpig&amp;feature=emb_logo)
 
 
 
@@ -419,6 +422,28 @@ vertical: body pane on the botton</t>
 Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但零件組裝來講VREP精細很多，需要非常熟悉相關設定才能進行下一步，操作十分繁瑣，但功能也許比Webots還多，只是第一次操作還沒十分熟悉這兩套機器人擬真軟體，熟能生巧後或許更能察覺這兩者的各有長處。
 
 
+
+
+
+
+
+</t>
+<t tx="leo.20191220004912.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220004912.2">## Week14內容
+
+##### [&lt;font color="orange"&gt;webots tutorial 2操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=_o0BqDp4w1M)
+
+##### [&lt;font color="orange"&gt;webots tutorial 3操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=RilWKkT0iS8)
+
+##### [&lt;font color="orange"&gt;webots tutorial 4操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=ws9TEQITv2E)
 
 
 
