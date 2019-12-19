@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>cad2019 s40723240 - Misc</title><link href="https://s40723240.github.io/cad2019/blog/" rel="alternate"></link><link href="https://s40723240.github.io/cad2019/blog/feeds/misc.atom.xml" rel="self"></link><id>https://s40723240.github.io/cad2019/blog/</id><updated>2019-12-13T11:00:00+08:00</updated><entry><title>webots and v-rep tutorial</title><link href="https://s40723240.github.io/cad2019/blog/webots%20and%20v-rep%20tutorial.html" rel="alternate"></link><published>2019-12-13T11:00:00+08:00</published><updated>2019-12-13T11:00:00+08:00</updated><author><name>s40723240</name></author><id>tag:s40723240.github.io,2019-12-13:/cad2019/blog/webots and v-rep tutorial.html</id><summary type="html">&lt;p&gt;v-rep-1影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MWbX7liuTF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;webots影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v_mXzaLcpig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
+<feed xmlns="http://www.w3.org/2005/Atom"><title>cad2019 s40723240 - Misc</title><link href="https://s40723240.github.io/cad2019/blog/" rel="alternate"></link><link href="https://s40723240.github.io/cad2019/blog/feeds/misc.atom.xml" rel="self"></link><id>https://s40723240.github.io/cad2019/blog/</id><updated>2019-12-20T11:00:00+08:00</updated><entry><title>webots tutorial 2~4</title><link href="https://s40723240.github.io/cad2019/blog/webots%202~4.html" rel="alternate"></link><published>2019-12-20T11:00:00+08:00</published><updated>2019-12-20T11:00:00+08:00</updated><author><name>s40723240</name></author><id>tag:s40723240.github.io,2019-12-20:/cad2019/blog/webots 2~4.html</id><summary type="html">&lt;h2&gt;webots-2影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_o0BqDp4w1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;webots-3影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RilWKkT0iS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;webots-4影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ws9TEQITv2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</summary><content type="html">&lt;h2&gt;webots-2影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/_o0BqDp4w1M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;webots-3影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RilWKkT0iS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;webots-4影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ws9TEQITv2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;</content><category term="cad2019"></category></entry><entry><title>webots and v-rep tutorial</title><link href="https://s40723240.github.io/cad2019/blog/webots%20and%20v-rep%20tutorial.html" rel="alternate"></link><published>2019-12-13T11:00:00+08:00</published><updated>2019-12-13T11:00:00+08:00</updated><author><name>s40723240</name></author><id>tag:s40723240.github.io,2019-12-13:/cad2019/blog/webots and v-rep tutorial.html</id><summary type="html">&lt;h2&gt;webots-1影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MWbX7liuTF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;v-rep-1影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v_mXzaLcpig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
-&lt;p&gt;Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但零件組裝來講VREP精細很多，需要非常熟悉相關設定才能進行下一步，操作十分繁瑣，但功能也許比Webots還多，只是第一次操作還沒十分熟悉這兩套機器人擬真軟體，熟能生巧後或許更能察覺這兩者的各有長處。&lt;/p&gt;</summary><content type="html">&lt;p&gt;v-rep-1影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MWbX7liuTF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;webots影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v_mXzaLcpig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;p&gt;Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但零件組裝來講VREP精細很多，需要非常熟悉相關設定才能進行下一步，操作十分繁瑣，但功能也許比Webots還多，只是第一次操作還沒十分熟悉這兩套機器人擬真軟體，熟能生巧後或許更能察覺這兩者的各有長處。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;webots-1影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MWbX7liuTF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h2&gt;v-rep-1影片&lt;/h2&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v_mXzaLcpig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;p&gt;Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但零件組裝來講VREP精細很多，需要非常熟悉相關設定才能進行下一步，操作十分繁瑣，但功能也許比Webots還多，只是第一次操作還沒十分熟悉這兩套機器人擬真軟體，熟能生巧後或許更能察覺這兩者的各有長處。&lt;/p&gt;</content><category term="cad2019"></category></entry><entry><title>cad2019 s40723240</title><link href="https://s40723240.github.io/cad2019/blog/2018-Fall-32-bit-Windows.html" rel="alternate"></link><published>2019-11-08T11:00:00+08:00</published><updated>2019-11-08T11:00:00+08:00</updated><author><name>s40723240</name></author><id>tag:s40723240.github.io,2019-11-08:/cad2019/blog/2018-Fall-32-bit-Windows.html</id><summary type="html">&lt;p&gt;40723240 期中個人報告&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/E3qvKzxi2ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
