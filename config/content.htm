@@ -182,7 +182,9 @@
 <p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/DW-Oy9KTczA" width="560"></iframe></strong></p>
 <p><strong><span>webots tutorial 5</span></strong></p>
 <p><strong><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/AmLdUsurVEg" width="560"></iframe></span></strong></p>
-<h1>Note</h1>
+<p><strong>w17任務</strong></p>
+<p><b><a href="https://s40723221.github.io/cad2019bg2/content/w16-w18.html">v-rep翻譯</a></b></p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/tK1lv1lJY1o" width="560"></iframe></strong></p><h1>Note</h1>
 <p><span><strong>正向pull request:</strong>組員從分組倉儲進行git pull "組長分組倉儲"  後進入近端修改東西再進行add commit push，在到自己分組倉儲按下new pull request-&gt;create pull request，組長接受後即為正向的pull request。 </span></p>
 <p><span><strong><span>逆向pull request</span>:</strong><span>在組員自己的分組倉儲下按new pull request，將base跟compare的分支對調(要按compare across forks)，在按下create pull request。</span></span><span><span>這樣一來就可以將組長分組倉儲下的提交版本逆向的回到組員分組倉儲下。</span></span></p>
 <p>要跟組長分組倉儲同步就進行一次 git add .  git commit -m "名稱"  git pull "組長分組倉儲"</p>
@@ -443,7 +445,8 @@
 <p>然後，我們仍然必須將動態形狀配置為動態且可響應的。我們在形狀動力學屬性中執行此操作。首先選擇基本動態形狀（即robot_dyn），然後檢查“主體是可響應的”項。啟用前四個“本地可響應掩碼”標誌，並禁用後四個“本地可響應掩碼”標誌：對於連續的可響應鏈接不要彼此衝突非常重要。對於我們機器人中的第一個移動動態鏈接（即robot_link_dyn1），我們還啟用了“身體可響應”項，但是這次我們禁用了前4個“本地可響應掩碼”標誌，並啟用了後4個“本地可響應掩碼”標誌。我們對所有其他動態鏈接重複上述過程，同時始終交替使用Local Responsible Mask標誌：一旦定義了模型，則連續的機器人動態形狀在彼此交互時不會產生任何碰撞響應。嘗試始終以這樣一種構造結束：機器人的動態基礎和機器人的動態最後一個鏈接僅啟用了前4個“本地可響應掩碼”標誌，以便我們可以將機器人附加到移動平台，或附加一個抓取器連接到機器人的最後一個動態鏈接，而沒有動態碰撞干擾。</p>
 <p>Finally, we still need to tag our dynamic shapes as Body is dynamic. We do this also in the shape dynamics properties. We can then enter the mass and inertia tensor properties manually, or have those values automatically computed (recommended) by clicking Compute mass &amp; inertia properties for selected convex shapes. Remember also this and that dynamic design considerations. This dynamic base of the robot is a special case: most of the time we want the base of the robot (i.e. robot_dyn) to be non-dynamic (i.e. static), otherwise, if used alone, the robot might fall during movement. But as soon as we attach the base of the robot to a mobile platform, we want the base to become dynamic (i.e. non-static). We do this by enabling the Set to dynamic if gets parent item, then disabling the Body is dynamic item. Now run the simulation: all dynamic shapes, except for the base of the robot, should fall. That attached visual shapes will follow their dynamic pendants.</p>
 <p>最後，我們仍然需要將動態形狀標記為“身體是動態的”。我們也在形狀動力學屬性中執行此操作。然後，我們可以手動輸入質量和慣性張量屬性，或者通過單擊“計算選定凸形的質量和慣性屬性”來自動計算（推薦）那些值。還請記住這一點以及該動態設計注意事項。機器人的這種動態基座是一種特殊情況：大多數時候，我們希望機器人的基座（即robot_dyn）是非動態的（即靜態），否則，如果單獨使用，則機器人可能會在運動過程中掉落。但是，一旦我們將機器人的底座連接到移動平台上，我們就希望底座變得動態（即非靜態）。我們通過啟用“如果獲取父項時設置為動態”項，然後禁用“主體為動態”項來做到這一點。現在運行仿真：除了機器人的基座之外，所有動態形狀都應下降。附加的視覺形狀將跟隨其動態吊墜。</p>
-<p></p><h1>About</h1>
+<p></p>
+<h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
 <p>1. 在 github 建立倉儲, git clone 到近端</p>
