@@ -154,12 +154,38 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='Week2-5.html'>Next</a> >> Week2-5<br /><h1>Weeks</h1>
-<p><strong></strong><a href="https://s40723240.github.io/cad2019/content/Week2-5.html">week2-5</a></p>
-<p><a href="https://s40723240.github.io/cad2019/content/Week6-9.html">week6-9</a></p>
-<p><a href="https://s40723240.github.io/cad2019/content/Week10-14.html">week10-14</a></p>
-<p><a href="https://s40723240.github.io/cad2019/content/Week15-18.html">week15-18</a></p>
-<br /> <a href='Week2-5.html'>Next</a> >> Week2-5</div>
+    <div id="tipue_search_content">Webots與Vrep << <a href='Webots與Vrep.html'>Previous</a> <a href='About.html'>Next</a> >> About<br /><h1>v-rep翻譯</h1>
+<p>We rename the new shape (with a double-click on its name in the scene hierarchy) as robot_dyn, assign it to visibility layer 9, then copy it to the original scene.</p>
+<p>我們將新形狀重命名（在場景層次中雙擊其名稱）為robot_dyn，將其分配給可見性層9，然後將其複製到原始場景。</p>
+<p>The rest of the links will be modelled as convex shapes, or compound convex shapes.</p>
+<p>其餘鏈接將建模為凸形或複合凸形。</p>
+<p>We now select the first mobile link (i.e. object robot_link1) and generate a convex shape from it with [Menu bar --&gt; Add --&gt; Convex hull of selection].</p>
+<p>現在，我們選擇第一個移動鏈接（即對象robot_link1），並使用[菜單欄-&gt;添加-&gt;選擇的凸包]從中生成凸形。</p>
+<p>We rename it to robot_link_dyn1 and assign it to visibility layer 9.</p>
+<p>我們將其重命名為robot_link_dyn1並將其分配給可見性層9。</p>
+<p>When extracting the convex hull doesn't retain enough details of the original shape, then you could still manually extract several convex hulls from its composing elements, then group all the convex hulls with [Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; Group selected shapes].</p>
+<p>當提取凸包並沒有保留足夠的原始形狀細節時，您仍然可以手動從其組成元素中提取多個凸包，然後將所有凸包與[菜單欄-&gt;編輯-&gt;分組/合併-&gt;對選定形狀進行分組]。</p>
+<p>If that appears to be problematic or time consuming, then you can automatically extract a convex decomposed shape with [Menu bar --&gt; Add --&gt; Convex decomposition of selection...]:</p>
+<p>如果這似乎有問題或很耗時，則可以使用[菜單欄-&gt;添加-&gt;選擇的凸分解...]自動提取凸分解的形狀：</p>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut16.jpg"/> </span></pre>
+<p><br/>[Original shape, and convex shape pendant]</p>
+<p>[原始形狀和凸形吊墜]</p>
+<p><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut17.jpg"/></p>
+<p>[Original shape, and convex decomposed shape pendant]</p>
+<p>[原始形狀和凸形分解形狀吊墜]</p>
+<p>We now repeat the same procedure for all remaining robot links. Once that is done, we attach each visible shape to its corresponding invisible dynamic pendant. We do this by selecting first the visible shape, then via control-click selecting its dynamic pendant then [Menu bar --&gt; Edit --&gt; Make last selected object parent]. The same result can be achieved by dragging the visible shape onto its dynamic pendant in the scene hierarchy:</p>
+<p>現在，我們對所有剩餘的機器人鏈接重複相同的過程。完成後，我們將每個可見的形狀附加到其相應的不可見的動態吊墜上。為此，我們先選擇可見的形狀，然後按住Control鍵並單擊以選擇其動態吊墜，然後選擇[菜單欄-&gt;編輯-&gt;將最後選擇的對象設為父對象]。通過將可見形狀拖動到場景層次中的動態吊墜上，可以實現相同的結果：</p>
+<p><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut18.jpg"/></p>
+<p>[Visible shapes attached to their dynamic pendants]</p>
+<p>[可見的形狀附加到動態吊墜上]</p>
+<p>We still need to take care of a few things: first, since we want the dynamic shapes only visible to the physics engine, but not to the other calculation modules, we uncheck all object special properties for the dynamic shapes, in the object common properties.</p>
+<p><br/>我們仍然需要注意一些事項：首先，由於我們希望動態形狀僅對物理引擎可見，而對其他計算模塊不可見，因此在對象通用屬性中取消選中動態形狀的所有對象特殊屬性。</p>
+<p>Then, we still have to configure the dynamic shapes as dynamic and respondable. We do this in the shape dynamics properties. Select first the base dynamic shape (i.e. robot_dyn), then check the Body is respondable item. Enable the first 4 Local respondable mask flags, and disable the last 4 Local respondable mask flags: it is important for consecutive respondable links not to collide with each other. For the first mobile dynamic link in our robot (i.e. robot_link_dyn1), we also enable the Body is respondable item, but this time we disable the first 4 Local respondable mask flags, and enable the last 4 Local respondable mask flags. We repeat the above procedure with all other dynamic links, while always alternating the Local respondable mask flags: once the model will be defined, consecutive dynamic shapes of the robot will not generate any collision response when interacting with each other. Try to always end up with a construction where the dynamic base of the robot, and the dynamic last link of the robot have only the first 4 Local respondable mask flags enabled, so that we can attach the robot to a mobile platform, or attach a gripper to the last dynamic link of the robot without dynamic collision interferences.</p>
+<p>然後，我們仍然必須將動態形狀配置為動態且可響應的。我們在形狀動力學屬性中執行此操作。首先選擇基本動態形狀（即robot_dyn），然後檢查“主體是可響應的”項。啟用前四個“本地可響應掩碼”標誌，並禁用後四個“本地可響應掩碼”標誌：對於連續的可響應鏈接不要彼此衝突非常重要。對於我們機器人中的第一個移動動態鏈接（即robot_link_dyn1），我們還啟用了“身體可響應”項，但是這次我們禁用了前4個“本地可響應掩碼”標誌，並啟用了後4個“本地可響應掩碼”標誌。我們對所有其他動態鏈接重複上述過程，同時始終交替使用Local Responsible Mask標誌：一旦定義了模型，則連續的機器人動態形狀在彼此交互時不會產生任何碰撞響應。嘗試始終以這樣一種構造結束：機器人的動態基礎和機器人的動態最後一個鏈接僅啟用了前4個“本地可響應掩碼”標誌，以便我們可以將機器人附加到移動平台，或附加一個抓取器連接到機器人的最後一個動態鏈接，而沒有動態碰撞干擾。</p>
+<p>Finally, we still need to tag our dynamic shapes as Body is dynamic. We do this also in the shape dynamics properties. We can then enter the mass and inertia tensor properties manually, or have those values automatically computed (recommended) by clicking Compute mass &amp; inertia properties for selected convex shapes. Remember also this and that dynamic design considerations. This dynamic base of the robot is a special case: most of the time we want the base of the robot (i.e. robot_dyn) to be non-dynamic (i.e. static), otherwise, if used alone, the robot might fall during movement. But as soon as we attach the base of the robot to a mobile platform, we want the base to become dynamic (i.e. non-static). We do this by enabling the Set to dynamic if gets parent item, then disabling the Body is dynamic item. Now run the simulation: all dynamic shapes, except for the base of the robot, should fall. That attached visual shapes will follow their dynamic pendants.</p>
+<p>最後，我們仍然需要將動態形狀標記為“身體是動態的”。我們也在形狀動力學屬性中執行此操作。然後，我們可以手動輸入質量和慣性張量屬性，或者通過單擊“計算選定凸形的質量和慣性屬性”來自動計算（推薦）那些值。還請記住這一點以及該動態設計注意事項。機器人的這種動態基座是一種特殊情況：大多數時候，我們希望機器人的基座（即robot_dyn）是非動態的（即靜態），否則，如果單獨使用，則機器人可能會在運動過程中掉落。但是，一旦我們將機器人的底座連接到移動平台上，我們就希望底座變得動態（即非靜態）。我們通過啟用“如果獲取父項時設置為動態”項，然後禁用“主體為動態”項來做到這一點。現在運行仿真：除了機器人的基座之外，所有動態形狀都應下降。附加的視覺形狀將跟隨其動態吊墜。</p>
+<p></p><br />Webots與Vrep << <a href='Webots與Vrep.html'>Previous</a> <a href='About.html'>Next</a> >> About</div>
         
     <!-- footer -->
       <div class="container">

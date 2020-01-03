@@ -177,6 +177,9 @@
 <p><strong>心得</strong></p>
 <p>這學期課程學習了利用solvespace和NX來繪製零件及差別，還有練習webots和v-rep的操作，這門課讓我學習到了很多東西，其中細節需要親手去操作才會體會，solvespace容量小適合簡單繪製；nx12需要相當熟悉畫圖功能和介面才能操作，容量當然也很大。webots場景比v-rep還逼真，且操作也比v-rep略為簡易，但v-rep功能非常的多，零件功能非常的細，兩者各有長處。</p>
 <p><strong>week16</strong></p>
+<p><strong>cad 任務和操作</strong></p>
+<p><b>心得:</b>經過一系列的操作後，發現自己對於solvespace到webots和v-rep的過程還是不熟練，但是還是有吸收經驗的感覺，知道自己不熟的地方在哪裡，要如何去改進..，希望經過一次又一次的練習後就能越來越熟悉這門課的核心了。</p>
+<p><strong><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/DW-Oy9KTczA" width="560"></iframe></strong></p>
 <p><strong><span>webots tutorial 5</span></strong></p>
 <p><strong><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/AmLdUsurVEg" width="560"></iframe></span></strong></p>
 <h1>Note</h1>
@@ -409,8 +412,20 @@
 </div>
 <p><strong>心得</strong></p>
 <p>Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但零件組裝來講VREP精細很多，需要非常熟悉相關設定才能進行下一步，操作十分繁瑣，但功能也許比Webots還多，只是第一次操作還沒十分熟悉這兩套機器人擬真軟體，熟能生巧後或許更能察覺這兩者的各有長處。</p>
-<p></p>
-<h1>About</h1>
+<h2>v-rep翻譯</h2>
+<p><span>We rename the new shape (with a double-click on its name in the scene hierarchy) as robot_dyn, assign it to visibility layer 9, then copy it to the original scene. </span></p>
+<p>我們將新形狀重命名（在場景層次中雙擊其名稱）為robot_dyn，將其分配給可見性層9，然後將其複製到原始場景。</p>
+<p><span>The rest of the links will be modelled as convex shapes, or compound convex shapes.</span></p>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">其餘鏈接將建模為凸形或複合凸形。</span><span lang="zh-TW" tabindex="0"><br/><br/>We now select the first mobile link (i.e. object robot_link1) and generate a convex shape from it with [Menu bar --&gt; Add --&gt; Convex hull of selection].<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0">現在，我們選擇第一個移動鏈接（即對象robot_link1），並使用[菜單欄-&gt;添加-&gt;選擇的凸包]從中生成凸形。<br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><br/>We rename it to robot_link_dyn1 and assign it to visibility layer 9. <br/><br/>我們將其重命名為robot_link_dyn1並將其分配給可見性層9。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/>When extracting the convex hull doesn't retain enough details of the original shape, then you could still manually extract several convex hulls from its composing elements, then group all the convex hulls with [Menu bar --&gt; Edit --&gt; Grouping/Merging --&gt; Group selected shapes]. <br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">當提取凸包並沒有保留足夠的原始形狀細節時，您仍然可以手動從其組成元素中提取多個凸包，然後將所有凸包與[菜單欄-&gt;編輯-&gt;分組/合併-&gt;對選定形狀進行分組]。</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr"><span lang="zh-TW" tabindex="0"><br/>If that appears to be problematic or time consuming, then you can automatically extract a convex decomposed shape with [Menu bar --&gt; Add --&gt; Convex decomposition of selection...]:<br/><br/></span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0">如果這似乎有問題或很耗時，則可以使用[菜單欄-&gt;添加-&gt;選擇的凸分解...]自動提取凸分解的形狀：</span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"> </span></pre>
+<pre class="tw-data-text tw-text-large tw-ta" data-placeholder="翻譯" dir="ltr" id="tw-target-text"><span lang="zh-TW" tabindex="0"><img src="http://www.coppeliarobotics.com/helpFiles/en/images/modelTut16.jpg"/> </span></pre>
+<p></p><h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
 <p>1. 在 github 建立倉儲, git clone 到近端</p>
