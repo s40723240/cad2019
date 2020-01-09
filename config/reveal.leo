@@ -42,14 +42,26 @@
 <v t="leo.20191208144218.1"><vh>week10</vh>
 <v t="leo.20191208144218.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191208144227.1"><vh>week12~13</vh>
+<v t="leo.20191208144227.1"><vh>week12</vh>
 <v t="leo.20191208144227.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20191213014612.1"><vh>心得</vh>
-<v t="leo.20191213014612.2"><vh>封面投影片內容</vh></v>
+<v t="leo.20200109204005.1"><vh>week13</vh>
+<v t="leo.20200109204005.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20191220004912.1"><vh>week14</vh>
 <v t="leo.20191220004912.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109200648.1"><vh>week15</vh>
+<v t="leo.20200109200648.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109200915.1"><vh>week16</vh>
+<v t="leo.20200109200915.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109201135.1"><vh>week17</vh>
+<v t="leo.20200109201135.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t="leo.20200109201142.1"><vh>week18</vh>
+<v t="leo.20200109201142.2"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -321,6 +333,9 @@ vertical: body pane on the botton</t>
 
 
 
+
+
+
 </t>
 <t tx="leo.20191106231738.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -363,6 +378,7 @@ vertical: body pane on the botton</t>
 
 
 
+
 </t>
 <t tx="leo.20191208144218.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -377,7 +393,7 @@ vertical: body pane on the botton</t>
 
 ##### [&lt;font color="orange"&gt;組員fork組長創建好的分組倉儲&lt;/font&gt;](https://github.com/s40723240/cad2019bg2)
 
-##### [&lt;font color="orange"&gt;正向與逆向pull request&lt;/font&gt;](https://s40723240.github.io/cad2019/content/Note.html)
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/AoyC8k6V0TQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 ##### [&lt;font color="orange"&gt;繪圖軟體發展歷史&lt;/font&gt;](https://s40723240.github.io/cad2019/content/Solidworks.html)
 
@@ -395,31 +411,11 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191208144227.2">## Week12~13內容
-
-##### [&lt;font color="orange"&gt;NX12電子書CH2章節整理&lt;/font&gt;](https://s40723221.github.io/cad2019bg2/content/CH2%20NX%E5%85%A5%E9%96%80%E6%95%99%E7%A8%8B.html)
+<t tx="leo.20191208144227.2">## Week12內容
 
 ##### [&lt;font color="orange"&gt;webots-1 Tutorial操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=MWbX7liuTF0&amp;feature=emb_logo)
 
-##### [&lt;font color="orange"&gt;v-rep bubblerob-1Tutorial操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=v_mXzaLcpig&amp;feature=emb_logo)
-
-
-
-
-
-</t>
-<t tx="leo.20191213014612.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20191213014612.2">## 心得
-
-Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但零件組裝來講VREP精細很多，需要非常熟悉相關設定才能進行下一步，操作十分繁瑣，但功能也許比Webots還多，只是第一次操作還沒十分熟悉這兩套機器人擬真軟體，熟能生巧後或許更能察覺這兩者的各有長處。
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MWbX7liuTF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -444,6 +440,119 @@ Webots的場景比V-rep逼真很多，操作步驟也比V-rep簡單很多，但�
 ##### [&lt;font color="orange"&gt;webots tutorial 3操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=RilWKkT0iS8)
 
 ##### [&lt;font color="orange"&gt;webots tutorial 4操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=ws9TEQITv2E)
+
+
+
+
+
+</t>
+<t tx="leo.20200109200648.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109200648.2">## Week15內容
+
+##### [&lt;font color="orange"&gt;w15個人學習報告成果影片&lt;/font&gt;](https://www.youtube.com/watch?time_continue=36&amp;v=riwvZlpWW2M&amp;feature=emb_logo)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/riwvZlpWW2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200109200915.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109200915.2">## Week16內容
+
+##### [&lt;font color="orange"&gt;webots tutorial 5&lt;/font&gt;](https://www.youtube.com/watch?v=AmLdUsurVEg&amp;feature=emb_logo)
+
+##### [&lt;font color="orange"&gt;cad 任務和操作&lt;/font&gt;](https://www.youtube.com/watch?v=DW-Oy9KTczA&amp;feature=emb_logo)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DW-Oy9KTczA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx="leo.20200109201135.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109201135.2">## Week17內容
+
+##### [&lt;font color="orange"&gt;v-rep翻譯&lt;/font&gt;](https://s40723221.github.io/cad2019bg2/content/w16-w18.html)
+
+##### [&lt;font color="orange"&gt;w17 任務&lt;/font&gt;](https://www.youtube.com/watch?v=tK1lv1lJY1o&amp;feature=emb_logo)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/tK1lv1lJY1o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+</t>
+<t tx="leo.20200109201142.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109201142.2">## Week18
+### 自評成績:75
+* &lt;font size="5"&gt;學員出席 (10%)&lt;/font&gt;
+* &lt;font size="5"&gt;個人倉儲與網站查驗 (20%)&lt;/font&gt;
+* &lt;font size="5"&gt;Task1: 參數式繪圖軟體 Solvespace 編譯、零組件繪圖與應用 (10%)&lt;/font&gt;
+* &lt;font size="5"&gt;Task2: MCAD 套件安裝與設定, 零組件繪圖、轉檔與 CAE 工程分析 (10%)&lt;/font&gt;
+* &lt;font size="5"&gt;Task3: Rover 零組件轉入 V-rep 與 Webots 執行機電控制系統設計 (20%)&lt;/font&gt;
+* &lt;font size="5"&gt;Project: 機電資整合分組專案執行 (30%)&lt;/font&gt;
+
+
+
+
+
+
+
+</t>
+<t tx="leo.20200109204005.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109204005.2">## Week13內容
+
+##### [&lt;font color="orange"&gt;v-rep bubblerob-1Tutorial操作影片&lt;/font&gt;](https://www.youtube.com/watch?v=v_mXzaLcpig&amp;feature=emb_logo)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/v_mXzaLcpig" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 
 
